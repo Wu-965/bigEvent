@@ -1,5 +1,6 @@
 // 全局的axios url根路径配置
-axios.defaults.baseURL = "http://ajax.frontend.itheima.net";
+//axios.defaults.baseURL = "http://ajax.frontend.itheima.net";
+axios.defaults.baseURL = "http://api-breakingnews-web.itheima.net";
 
 // 添加请求拦截器
 axios.interceptors.request.use(function(config) {

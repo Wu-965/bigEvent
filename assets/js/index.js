@@ -1,5 +1,6 @@
 function identity() {
     axios.get("/my/userinfo").then(function(res) {
+        // console.log(res);
         let data = res.data.data;
         let name = data.nickname || data.username;
         $("#welcome").text("欢迎  " + name);
